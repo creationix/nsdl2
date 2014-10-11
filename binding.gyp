@@ -6,9 +6,10 @@
       "dependencies": [
         'sdl2.gyp:SDL2',
       ],
+      'ldflags': [
+        'Release/SDL2.a',
+      ],
     },
-
-
   ],
-      "libraries": [ "Release/SDL2.a" ]
+  # "libraries": [ "" ]
 }
